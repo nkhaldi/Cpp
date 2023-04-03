@@ -18,7 +18,7 @@ int main()
     exam_map all_exams = me->get_all_exams();
     for (auto it : all_exams)
     {
-        cout << "  " << it.first << ": " << all_exams[it.first] << endl;
+        cout << "  " << it.first << ": " << (short)it.second << endl;
     }
 
     return 0;
