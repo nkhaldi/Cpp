@@ -9,6 +9,7 @@ Student::Student(string name, int age) : Person(name, age)
 
 Student::~Student()
 {
+    cout << "~Student" << endl;
 }
 
 void Student::set_exam(string exam, int mark)

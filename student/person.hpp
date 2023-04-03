@@ -11,7 +11,7 @@ protected:
 
 public:
     Person(string name, int age);
-    ~Person();
+    virtual ~Person();
 };
 
 #endif
