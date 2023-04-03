@@ -5,15 +5,16 @@
 
 typedef unordered_map<string, int> exam_map;
 
-class Student
+class Student : public Person
 {
 private:
-    int age_;
-    string name_;
+    static int total;
+
+    int doc_id_;
     exam_map exams_;
 
 public:
-    Student(string name, int age);
+    Student(string, int age);
     ~Student();
 
     void set_exam(string exam, int mark);

@@ -7,6 +7,7 @@
 
 using namespace std;
 
+#include "person.hpp"
 #include "student.hpp"
 
 #endif

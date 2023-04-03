@@ -1,9 +1,10 @@
 #include "head.hpp"
 
-Student::Student(string name, int age)
+int Student::total = 0;
+
+Student::Student(string name, int age) : Person(name, age)
 {
-    name_ = name;
-    age_ = age;
+    doc_id_ = ++total;
 }
 
 Student::~Student()
