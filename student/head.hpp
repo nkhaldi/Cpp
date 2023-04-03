@@ -7,8 +7,6 @@
 
 using namespace std;
 
-typedef unordered_map<string, char> exam_map;
-
 #include "student.hpp"
 
 #endif

@@ -10,15 +10,15 @@ int main()
     me->set_exam("chemestry", 3);
 
     cout << "Solo getter" << endl;
-    cout << "  Math: " << me->get_exam("math") << endl;
-    cout << "  Informatics: " << me->get_exam("informatics") << endl;
+    cout << "  math: " << me->get_exam("math") << endl;
+    cout << "  informatics: " << me->get_exam("informatics") << endl;
     cout << endl;
 
     cout << "Full getter" << endl;
     exam_map all_exams = me->get_all_exams();
     for (auto it : all_exams)
     {
-        cout << "  " << it.first << ": " << (short)it.second << endl;
+        cout << "  " << it.first << ": " << it.second << endl;
     }
 
     return 0;

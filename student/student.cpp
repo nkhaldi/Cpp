@@ -10,12 +10,11 @@ Student::~Student()
 {
 }
 
-void Student::set_exam(string exam, char mark)
+void Student::set_exam(string exam, int mark)
 {
     exams_[exam] = mark;
-
 }
-char Student::get_exam(string exam)
+int Student::get_exam(string exam)
 {
     return exams_[exam];
 }
